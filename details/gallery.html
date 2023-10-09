@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ECE Gallery</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #5d5858;
+    }
+
+    .main {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 80%;
+    }
+
+    .card {
+      width: 200px;
+      height: 300px;
+      background-color: #007bff;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    /* Card hover effect */
+    .main:hover #c1 {
+      transform: translateX(-100px) rotate(-40deg);
+    }
+
+    .main:hover #c2 {
+      transform: translateX(-50px) rotate(-38deg);
+    }
+
+    .main:hover #c3 {
+      transform: translateX(0) rotate(-20deg);
+    }
+
+    .main:hover #c4 {
+      transform: translateX(50px) rotate(-10deg);
+    }
+
+    /* Card hover effect on hover */
+    #c1:hover {
+      transform: translateX(-150px) rotate(0deg) !important;
+    }
+
+    #c2:hover {
+      transform: translateX(-100px) rotate(8deg) !important;
+    }
+
+    #c3:hover {
+      transform: translateX(-50px) rotate(8deg) !important;
+    }
+
+    #c4:hover {
+      transform: translateX(50px) rotate(0deg) !important;
+    }
+  </style>
+  <body>
+    <main class="main">
+      <div>
+        <div class="card" id="c1">
+          <img src="/gallery/img 1 (1).jpg" alt="Image 1" />
+        </div>
+      </div>
+
+      <div>
+        <div class="card" id="c2">
+          <img src="/gallery/img 2.png" alt="Image 2" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c3">
+          <img src="/gallery/img 3.jpg" alt="Image 3" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c4">
+          <img src="/gallery/img 4.png" alt="Image 4" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c4">
+          <img src="/gallery/img 5.jpg" alt="Image 4" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c4">
+          <img src="/gallery/img 1 (10).jpg" alt="Image 4" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c4">
+          <img src="/gallery/img 1 (11).jpg" alt="Image 4" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c4">
+          <img src="/gallery/img 1 (12).jpg" alt="Image 4" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c4">
+          <img src="/gallery/img 1 (13).jpg" alt="Image 4" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c4">
+          <img src="/gallery/img 1 (9).jpg" alt="Image 4" />
+        </div>
+      </div>
+      <div>
+        <div class="card" id="c4">
+          <img src="/gallery/img 10.jpg" alt="Image 4" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

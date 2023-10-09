@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Placement Details</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #434141;
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background-image: url("attractive-background.jpg");
+      background-size: cover;
+      opacity: 0.6; /* Adjust the opacity for the background */
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(
+        127,
+        124,
+        124,
+        0.9
+      ); /* Adjust the background color and opacity */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #000000;
+      margin-top: 0;
+    }
+
+    .student-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .student-card {
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+      background-color: #afabab;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .student-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .student-card h2 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .student-card p {
+      margin: 5px 0;
+      color: #666;
+    }
+
+    /* Add additional styling as needed */
+  </style>
+  <body>
+    <div class="background"></div>
+    <div class="container">
+      <h1>Student Placement Details</h1>
+      <div class="student-cards">
+        <div class="student-card">
+          <img src="student1.jpg" alt="Student 1" />
+          <h2>Student Name 1</h2>
+          <p>Placement Company: Company 1</p>
+          <p>Position: Position 1</p>
+        </div>
+        <!-- Repeat the student cards for each student -->
+        <!-- Example for Student 2 -->
+        <div class="student-card">
+          <img src="student2.jpg" alt="Student 2" />
+          <h2>Student Name 2</h2>
+          <p>Placement Company: Company 2</p>
+          <p>Position: Position 2</p>
+        </div>
+        <!-- student - 3 -->
+        <div class="student-card">
+          <img src="student2.jpg" alt="Student 2" />
+          <h2>Student Name 2</h2>
+          <p>Placement Company: Company 2</p>
+          <p>Position: Position 2</p>
+        </div>
+        <!-- student - 4 -->
+        <div class="student-card">
+          <img src="student2.jpg" alt="Student 2" />
+          <h2>Student Name 2</h2>
+          <p>Placement Company: Company 2</p>
+          <p>Position: Position 2</p>
+        </div>
+        <!-- student 5 -->
+        <div class="student-card">
+          <img src="student2.jpg" alt="Student 2" />
+          <h2>Student Name 2</h2>
+          <p>Placement Company: Company 2</p>
+          <p>Position: Position 2</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

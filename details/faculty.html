@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faculty Info</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: #302d2d;
+        color: #1e1c1c;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 100px;
+        background-color: #9a9b9b;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+
+      .smoke {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(
+          rgba(255, 255, 255, 0.1) 5%,
+          transparent 10%
+        );
+        background-size: 100px 100px;
+        animation: smoke 0s linear-gradient;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      .faculty-info {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .faculty-info img {
+        width: 200px;
+        height: 300px;
+        border-radius: 20%;
+        
+        object-fit: cover;
+        border: 3px solid #616161;
+      }
+
+      .faculty-info h2 {
+        font-size: 24px;
+        margin-top: 10px;
+      }
+
+      .faculty-info p {
+        font-size: 18px;
+        margin-top: 10px;
+      }
+
+      .faculty-info ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .faculty-info li {
+        margin-top: 5px;
+      }
+
+      /* Add styling for achievements, publications, etc. */
+      .faculty-section {
+        margin-top: 20px;
+      }
+
+      .faculty-section h3 {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+
+      .faculty-section ul {
+        list-style: square;
+        padding-left: 20px;
+      }
+
+      /* Add styling for contact information */
+      .contact-info {
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .contact-info a {
+        text-decoration: none;
+        color: #022346;
+      }
+
+      .btn {
+        padding: 10px 4rem;
+        border-radius: 15px;
+        font-size: 16px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        border: 2px solid #0d0d0d;
+        color: #000000;
+        background: transparent;
+        transition: 0.4s;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+      }
+
+      .btn:hover {
+        background: #6675f7;
+        color: #000;
+      }
+
+      .view {
+        text-decoration: none;
+        color: #000000;
+      }
+
+      @keyframes smoke {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Faculty 1 -->
+    <div class="smoke">
+      <div class="container">
+        <h1>Personal Info</h1>
+
+        <div class="faculty-info">
+          <img src="/Faculties/faculty 1.jpg" alt="Faculty Member" />
+          <h2>Dr.P.Marisamy</h2>
+          <p>Professor & Dean</p>
+          <p>PSR Engineering College</p>
+          <ul>
+            <li><b>M.E,Ph.D</b></li>
+            <li><b>Teaching experience: </b>35+ years</li>
+            <li>
+              <b>Research interests:</b> FDP on Technical Trends in IoE, Data
+              Science and Artificial Intelligence, ATAL FDP on Internet of
+              Things
+            </li>
+          </ul>
+        </div>
+
+        <div class="faculty-section">
+          <h3>Achievements:</h3>
+
+          <ul>
+            <li>"JURY" - Junior Level Smart India Hackathon-2022 (SIH-2022)</li>
+            <br />
+            <li>
+              "EXEMPLARY ACADEMIC ADMINISTRATORS OF HIGHER EDUCATION INSTITUTES
+              ACROSS INDIA" - The Academic Council of uLektz(2019)
+            </li>
+            <br />
+            <li>
+              "EMPLOYEE OF THE MONTH" - Nizwa College of Technology, Sultanate
+              of Oman (2006)
+            </li>
+          </ul>
+        </div>
+        <br />
+        <div class="faculty-section">
+          <h3>Publications:</h3>
+          <ul>
+            <li>35 Publications </li>
+            <br />
+            <li>27 - Journal Articles</li>
+            <br />
+            <li>1 - Book Chapter</li>
+            <br />
+            <li>1 - Book</li>
+            <br />
+            <li>6 - Conference Proceedings</li>
+            <br />
+            <li>2 - Projects</li>
+          </ul>
+        </div>
+
+        <div class="contact-info">
+          <p>
+            Contact:
+            <a href="mailto:john.doe@example.edu">pmarisamy@psr.edu.in</a>
+          </p>
+        </div>
+        <center>
+          <button class="btn">
+            <a class="view" href="https://psr.irins.org/profile/303961">
+              Visit More
+            </a>
+          </button>
+        </center>
+      </div>
+      <br>
+
+
+      <!-- Faculty 2 -->
+      <div class="smoke">
+      <div class="container">
+        <h1>Personal Info</h1>
+
+        <div class="faculty-info">
+          <img src="/Faculties/faculty 2.jpg" alt="Faculty Member" />
+          <h2>Dr.K.Valarmathi</h2>
+          <p>Professor & Head</p>
+          <p>Department of Electronics and Communication Engineering PSR
+            Engineering College</p>
+          <ul>
+            <li><b>M.Tech,Ph.D</b></li>
+            <li><b>Teaching experience: </b>34+ years</li>
+            <li>
+              <b>Research interests:</b> A Novel approach for the design and implementation of Wearable
+              antennas by detecting the stages of Brain tumor and RF Mixed
+              Antenna Design LAB
+          </ul>
+        </div>
+
+        <div class="faculty-section">
+          <h3>Achievements:</h3>
+
+          <ul>
+            <li> " CO-ORDINATOR AWARD FROM NEW INDIA HACKATHON 2020 " - ICT Academy
+              (2020)</li>
+            <br />
+            <li>
+               " MOST POWERFUL WOMEN IN HIGHER EDUCATION ACROSS INDIA FOR THE
+              YEAR 2019 " - academic Council of uLektz award (2020)
+            </li>
+            <br />
+            <li>
+                " CERTIFICATE OF APPRECIATION FOR THE DRISHTI ONLINE CONTEST " -
+              Texas Instruments (2019)
+            </li>
+          </ul>
+        </div>
+        <br />
+        <div class="faculty-section">
+          <h3>Publications:</h3>
+          <ul>
+            <li>62 Publications </li>
+            <br>
+            <li>39 - Journal Articles</li>
+            <br />
+            <li>2 - Book Chapter</li>
+            <br />
+            <li>1 - Review</li>
+            <br />
+            <li>20 - Conference Proceedings</li>
+            <br />
+            <li>4 - Projects</li>
+          </ul>
+        </div>
+
+        <div class="contact-info">
+          <p>
+            Contact:
+            <a href="mailto:john.doe@example.edu">valarmathi@psr.edu.in</a>
+          </p>
+        </div>
+        <center>
+          <button class="btn">
+            <a class="view" href="https://psr.irins.org/profile/242083">
+              Visit More
+            </a>
+          </button>
+        </center>
+      </div>
+      <br>
+
+
+      <!-- Faculty 3 -->
+      <div class="smoke">
+      <div class="container">
+        <h1>Personal Info</h1>
+
+        <div class="faculty-info">
+          <img src="/Faculties/faculty 3.jpg" alt="Faculty Member" />
+          <h2>Dr.P.Ranjithkumar</h2>
+          <p>Professor</p>
+          <p>Department of Electronics and Communication Engineering PSR
+            Engineering College</p>
+          <ul>
+            <li><b>M.E,Ph.D</b></li>
+            <li><b>Teaching experience: </b>11 years</li>
+            <li>
+              <b>Research interests:</b> AI, VLSI and International Conference on Challenges and Oppertunities for Develpment of Smart Cities
+            </li>
+          </ul>
+        </div>
+
+        <div class="faculty-section">
+          <h3>Achievements:</h3>
+
+          <ul>
+            <li>"ULEKTZ ,AWARD" - 
+uLektz(2021)</li>
+            <br />
+            <li>
+              
+"RESEARCH SUPERVISOR" - 
+Anna University(2014)
+            </li>
+            <br />
+            <li>"RHCE AND RHCT CERTIFIED ENGINEER" - 
+Red hat Linux corporation(2006)
+            </li>
+            <br>
+          </ul>
+        </div>
+        <br />
+        <div class="faculty-section">
+          <h3>Publications:</h3>
+          <ul>
+             <li>22 Publications</li>
+            <br />
+            <li>16 - Journal Articles</li>
+            <br />
+            <!-- <li>1 - Book Chapter</li> -->
+            <!-- <br /> -->
+             <li>1 - Conference</li> 
+            <br />
+            <li>5 - Conference Proceedings</li>
+            <br />
+            <li>4 - Projects</li>
+          </ul>
+        </div>
+
+        <div class="contact-info">
+          <p>
+            Contact:
+            <a href="mailto:john.doe@example.edu">ranjithkumar@psr.edu.in</a>
+          </p>
+        </div>
+        <center>
+          <button class="btn">
+            <a class="view" href="https://psr.irins.org/profile/263013#honours_information_panel">
+              Visit More
+            </a>
+          </button>
+        </center>
+      </div>
+      <br>
+
+
+      <!-- Faculty 4 -->
+      <div class="smoke">
+      <div class="container">
+        <h1>Personal Info</h1>
+
+        <div class="faculty-info">
+          <img src="/Faculties/faculty 4.jpeg" alt="Faculty Member" />
+          <h2>Dr.R.Vinoth</h2>
+          <p>Associate Professor</p>
+          <p>Department of Electronics and Communication Engineering PSR
+            Engineering College</p>
+          <ul>
+            <li><b>M.E,Ph.D</b></li>
+            <li><b>Teaching experience: </b>12+ years</li>
+            <li>
+              <b>Research interests:</b>Image Processing and Classification
+          </ul>
+        </div>
+
+        <div class="faculty-section">
+          <h3>Achievements:</h3>
+
+          <ul>
+            <li>"TOP 50 THOUGHT LEADERS IN HIGHER EDUCATION" - 
+The Academic Council of ULektz(2020)</li>
+            <br />
+            <li>
+              "INSTITUTIONAL AMBASSADOR OF IFERP" - 
+Institute for Engineering Research& Publication(2020)
+            </li>
+            <br />
+            <li>
+              "CONFEDERATION OF ELITE ACADEMICIANS OF IICDC" - 
+Texas Instruments (2019)
+            </li>
+          </ul>
+        </div>
+        <br />
+        <div class="faculty-section">
+          <h3>Publications:</h3>
+          <ul>
+            <li>27 Publications</li>
+            <br />
+            <li>16 - Journal Articles</li>
+            <br />
+            <li>5 - Book Chapter</li>
+            <br />
+            <li>2 - Book-chapter</li>
+            <br />
+            <!-- <li>4 - Conference Proceedings</li>
+            <br />
+            <li>2 - Projects</li> -->
+          </ul>
+        </div>
+
+        <div class="contact-info">
+          <p>
+            Contact:
+            <a href="mailto:john.doe@example.edu">vinoth@psr.edu.in</a>
+          </p>
+        </div>
+        <center>
+          <button class="btn">
+            <a class="view" href="https://psr.irins.org/profile/249366#honours_information_panel">
+              View More
+            </a>
+          </button>
+        </center>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awards</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(90deg, #5e72f4, #67f267);
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .flip-card {
+        width: 200px;
+        height: 300px;
+        perspective: 1000px;
+        margin: 10px;
+      }
+
+      .flip-card-inner {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.5s;
+        transform-style: preserve-3d;
+      }
+
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+
+      .flip-card-front,
+      .flip-card-back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+      }
+
+      .flip-card-front {
+        background-color: #96e6ed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flip-card-back {
+        background-color: #0c98b1;
+        color: #fff;
+        transform: rotateY(180deg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+      /* Style the image */
+      .flip-card-image img {
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Flip Card 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-card-image">
+              <img src="/AWARDS/AWARDS 2.jpg" alt="Achievement Image 1" />
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h2>State Level CODEATHON</h2>
+            <p>
+              Second ECE students Mr.K.Karuppasamy, E.Manoj , J.Johnson have won
+              2nd Prize in State level CODEATHON at Prathyusha Engineering
+              College.
+            </p>
+            <p>Date: February 25, 2023</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <!-- Add more flip cards (up to 10) here -->
+      <!-- Flip Card 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-card-image">
+              <img src="/AWARDS/AWARDS 11.jpg" alt="Achievement Image 2" />
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h2>ISRO CONTEST</h2>
+            <p>ISRO CONTEST won by Rajkumar and Periyasamy</p>
+            <!-- <p>Date: February 15, 2023</p> -->
+          </div>
+        </div>
+      </div>
+      <!-- Flip Card 3 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-card-image">
+              <img src="/AWARDS/AWARDS 4.jpg" alt="Achievement Image 2" />
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h2>IDEATHON Act2.0</h2>
+            <p>
+              Second ECE students have won 3rd prize in Ideathon Act2INNOVATE2.0
+              at IIT Dhanbad
+            </p>
+            <p>Date: February 1, 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip Card 4 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-card-image">
+              <img src="/AWARDS/AWARDS 1.jpg" alt="Achievement Image 2" />
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h2>TamilNadu Police Hackathon'23</h2>
+            <p>
+              N.Sakthi Karthikeswaran,C.Muthu Selvam,R.sathish Kumar,A.Selvam
+              have won Rs.3000/- as cash prize organized by Tamilnadu Police
+              Cyber Crime Wing
+            </p>
+            <p>Date: March 15, 2023</p>
+          </div>
+        </div>
+      </div>
+      <!-- Flip Card 5 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-card-image">
+              <img src="/AWARDS/AWARDS 5.jpg" alt="Achievement Image 2" />
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h2>NIT-T & Datanetix Hackathon 2023</h2>
+            <p>
+              Second ECE students Mr.K.Karuppasamy ,
+              Jeganath,Saran,Venkateswaran,Pothiraj and Veera vignesh have
+              participated in NIT-T & Datanetix Hackathon 2023 at NIT Trich
+            </p>
+            <p>Date: January 09, 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip Card 6 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-card-image">
+              <img src="/AWARDS/AWARDS 12.jpg" alt="Achievement Image 2" />
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h2>Innovation Festival-2019</h2>
+            <p>
+              Project Contest on Innovation Festival-2019 conducted by District
+              Science Center Tirunelveli on 03.02.2019 Prize won by S.Chitra
+              Devi, S.Deepa, R.JeyaLakashmi.
+            </p>
+            <p>Date: February 03, 2019</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip Card 7 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-card-image">
+              <img src="/AWARDS/AWARDS 7.jpg" alt="Achievement Image 2" />
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h2>Project Innovation'23</h2>
+            <p>
+              M.Esakkimuthu of ECE department got Swatcha saarthi Fellowship for
+              his idea, “ Generating Electricity from plastic Bottle waste”
+            </p>
+            <p>Date: February 15, 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Flip Card 8 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="flip-card-image">
+              <img src="/AWARDS/AWARDS 8.jpg" alt="Achievement Image 2" />
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h2>Swachhta Saarthi Fellowship - 2021</h2>
+            <p>
+              The Management,Principal,Dean, Head of the Departments and Faculty
+              Members congratulate the Students who have Selected for “Swachhta
+              Saarthi Fellowship - 2021” for their Project Proposal under the
+              Waste to Wealth Mission of the Govt. of India
+            </p>
+            <p>Date: February 15, 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
